@@ -7,6 +7,9 @@ class Udacian:
         self.status=Udacian_status
     def Print(self):
         print "name:"+self.name+"  city:"+self.city+"  enrollment:"+self.enrollment+"  nanodegree:" +self.nanodegree+ "  status:"+self.status
+    def Add(self):
+        print "name:" + self.name + "  city:" + self.city + "  enrollment:" + self.enrollment + "  nanodegree:" + self.nanodegree + "  status:" + self.status
+
 
 
 
