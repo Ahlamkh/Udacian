@@ -11,6 +11,6 @@ class Udacian:
 
 
 
-user = Udacian("Ahlam","Makkah","computer","full stack web developer","student")
+user = Udacian("mufadal","Makkah","computer","full stack web developer","student")
 
 user.Print()
