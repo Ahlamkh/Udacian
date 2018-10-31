@@ -38,7 +38,7 @@ class MessageHandler(BaseHTTPRequestHandler):
         nanodegree = parse_qs(data)["nanodegree"][0]
         status = parse_qs(data)["status"][0]
         a = Udacian(name,city,enrollment,nanodegree,status)
-        memory.append(a.print_udacity1())
+        memory.append(a.Print())
         self.send_response(303)
         self.send_header('Location', '/')
         self.end_headers()
